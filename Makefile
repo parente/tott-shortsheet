@@ -1,4 +1,9 @@
-.PHONY: vendor front-vendor back-vendor clean server
+.PHONY: vendor front-vendor back-vendor clean server help
+
+help:
+	@echo " clean - remove dependencies"
+	@echo "vendor - install dependencies"
+	@echo "server - run server in dev mode"
 
 clean:
 	@-rm -r public/vendor
