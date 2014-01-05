@@ -6,10 +6,6 @@
     <title>ShortSheet</title>
     <link rel="stylesheet" href="{{static_path}}/vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{static_path}}/css/shortsheet.css">
-    <script src="{{static_path}}/vendor/jquery/jquery.min.js"></script>
-    <script src="{{static_path}}/vendor/jquery-csv/src/jquery.csv.js"></script>
-    <script src="{{static_path}}/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="{{static_path}}/js/shortsheet.js"></script>
     <script>var STATIC_PATH='{{static_path}}';</script>
   </head>
   <body>
@@ -42,5 +38,9 @@
         <tbody></tbody>
       </table>
     </div>
+    <script src="{{static_path}}/vendor/jquery/jquery.min.js"></script>
+    <script src="{{static_path}}/vendor/jquery-csv/src/jquery.csv.js"></script>
+    <script src="{{static_path}}/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="{{static_path}}/js/shortsheet.js"></script>
   </body>
 </html>
